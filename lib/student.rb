@@ -52,7 +52,12 @@ class Student
     # name = row[1]
     # grade = row[2]
     # self.new(id, name, grade)
-    
+    nst = self.new
+    nst.id = row[0]
+    nst.name = row[1]
+    nst.grade = row[2]
+    nst
+
   end
 
   def self.find_by_name
