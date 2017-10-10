@@ -48,7 +48,7 @@ class Student
   end
 
   def self.new_from_db
-
+    new_student = self.new
   end
 
   def self.find_by_name
